@@ -1,51 +1,59 @@
 <html>
   <head>
-    <nav style="gray; color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: medium; border-radius: 8px; inline-size: none;">
-      <a href="index.html"> HOME </a> 
+    <nav style="background-color: gray; color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: medium; border-radius: 8px; inline-size: none; padding: 20px; margin: 30px; text-decoration: none;">
+      <a class="nav a"href="index.html"> HOME </a> 
       <a href="about.html"> ABOUT </a> 
       <a href="gallery.html"> GALLERY </a>
     </nav>
     <br>
-    
+
     <title>Learning CSS</title>
     <link rel="stylesheet" href="styles.css">
     <style>
       h1 {
-        color: red;
+        color: black;
       }
 
       p {
         margin: 32px;
       }
 
-      button {
+      button { color: red;
       }
-
-      /* TODO: add styles for header  */
-      
-      /* TODO: add styles for footer  */
 
       .paragraph-1 {
         background-color: pink;
+      }
+      .article-p {
+        background-color: rgb(2, 30, 40); color: aliceblue; font-weight: 300;
+      }
+      .nav a {
+        -o-transition-delay: 0.3s;
+        transform-style: inherit;
+        hover: lightslategray;
+        text-align: center;
+        text-decoration: none;
       }
     </style>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <h1 style="text-decoration: underline">I like cats!
+      <h1 style="text-decoration: underline">I like the Norther Lights
       </h1>
     </header>
     <main>
-      <p class="paragraph-1" style="">
-        <em>Nice kitty!</em> Consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar <strong>mattis</strong> nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam.    
+      <p class="paragraph-1" style="color: black; font-family: Georgia, 'Times New Roman', Times, serif;">
+        <em>Aurora Borealis!</em> These beautiful lights are created in a curtain like fashion in the sky!
+        These lights are from a combination of changes in the sky's <Strong>magnetosphere</Strong> and change the paths in the Earth's charged particles!
+        There are many factors that go into play, but it creats a brilliant pattern light show for us to see.
       </p>
     
-      <p style="">
+      <p style="background-color: cornflowerblue; color: black; font-family: Georgia, 'Times New Roman', Times, serif;">
+        
+      </p>
+    
+      <p style="background-color: lightblue; color: black; font-family: Georgia, 'Times New Roman', Times, serif;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
         sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
@@ -56,20 +64,18 @@
         vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
         erat nam at lectus urna duis.
       </p>
+      <section>
+<article>
+  <p class="article-p">Things to know about cats:</p>
+<ul>
+<li>Grooming is <strong>essential</strong></li>
+<li>regulate food</li>
+<li>plenty of exercise</li>
+</ul>
+</article>
+      </section>
     
-      <p style="">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Tincidunt nunc pulvinar
-        sapien et ligula ullamcorper malesuada. Euismod quis viverra nibh cras
-        pulvinar mattis nunc. Enim blandit volutpat maecenas volutpat blandit
-        aliquam etiam. Sed blandit libero volutpat sed cras ornare arcu dui vivamus.
-        Nulla aliquet enim tortor at auctor urna nunc id cursus. Gravida arcu ac
-        tortor dignissim convallis aenean. Nulla porttitor massa id neque aliquam
-        vestibulum morbi blandit cursus. Fringilla urna porttitor rhoncus dolor. A
-        erat nam at lectus urna duis.
-      </p>
-    
-      <table>
+      <table style="border-radius: 10px; margin-block-start: auto; border-width: 10px; border-style: double;">
         <tr>
           <th style="background-color: lightslategray; color: aliceblue; font-size: medium;">item</th>
           <th style="background-color: lightslategray; color: aliceblue; font-size: medium;">price</th>
@@ -86,12 +92,12 @@
         </tr>
       </table>
     <br>
-      <button style="color: blue;"><strong>Buy Now!</strong></button>
+      <button style="color: red;"><strong>Buy Now!</strong></button>
     <br>
     <br>
     </main>
   
-    <nav style="background-color: gray; color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: medium; border-radius: 8px; inline-size: none; padding: 20px; margin: 30px;">
+    <nav style="background-color: gray; color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: medium; border-radius: 8px; inline-size: none; padding: 20px; margin: 30px; text-decoration: none;">
       <a href="index.html"> HOME </a> 
       <a href="about.html"> ABOUT </a> 
       <a href="gallery.html"> GALLERY </a>
