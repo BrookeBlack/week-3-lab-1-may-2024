@@ -60,6 +60,6 @@ Aurthor: Brooke Blackmon
 
 ## Bonus and Extension
 
-* BONUS: Change the content of this page  to something you like (super cars, knitting, Donkey Kong). Add one or two more pages (they may be called GALLERY and ABOUT) and style them with CSS. (.You might want to move the NAV element to the top.)
+* BONUS: Change the content of this page  to something you like (.super cars, knitting, Donkey Kong). Add one or two more pages (they may be called GALLERY and ABOUT) and style them with CSS. (.You might want to move the NAV element to the top.)
 
 * EXTENSION: Explore the concept of a CSS gradient. Create a few different gradients on your page. Try combining an alpha channel with a background image.
