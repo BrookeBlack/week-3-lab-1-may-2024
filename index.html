@@ -1,12 +1,6 @@
 <html>
 
 <head>
-  <nav
-    style="background-color: gray; color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: medium; border-radius: 8px; inline-size: none; padding: 20px; margin: 30px; display: inline-block; text-decoration: none;">
-    <a class="nav a" href="index.html"> HOME </a>
-    <a href="about.html"> ABOUT </a>
-    <a href="gallery.html"> GALLERY </a>
-  </nav>
   <br>
   <title>Learning CSS</title>
   <link rel="stylesheet" href="style.css">
@@ -52,8 +46,9 @@
 
     body {
   background-image: linear-gradient(rgb(34, 98, 224), rgb(9, 226, 242),rgb(14, 242, 166), rgb(242, 110, 242));
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
+  height: 100vh;
 }
 .article-p {
   margin-left: 30px; padding: 20px;
@@ -62,6 +57,12 @@
 </head>
 
 <body>
+  <nav
+    style="background-color: gray; color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: medium; border-radius: 8px; inline-size: none; padding: 20px; margin: 30px; display: inline-block; text-decoration: none;">
+    <a class="nav a" href="index.html"> HOME </a>
+    <a href="about.html"> ABOUT </a>
+    <a href="gallery.html"> GALLERY </a>
+  </nav>
   <header>
     <h1 style="text-decoration: underline">I love the Northern Lights!</h1>
   </header>
@@ -122,14 +123,12 @@
     <br>
     <br>
   </main>
-
   <nav
-    style="background-color: gray; color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: medium; border-radius: 8px; inline-size: none; padding: 20px; margin: 30px; text-decoration: none;">
-    <a href="index.html"> HOME </a>
-    <a href="about.html"> ABOUT </a>
-    <a href="gallery.html"> GALLERY </a>
-  </nav>
-
+  style="background-color: gray; color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: medium; border-radius: 8px; inline-size: none; padding: 20px; margin: 30px; display: inline-block; text-decoration: none;">
+  <a class="nav a" href="index.html"> HOME </a>
+  <a href="about.html"> ABOUT </a>
+  <a href="gallery.html"> GALLERY </a>
+</nav>
   <footer style="background-color: lightslategray; color: aliceblue;"> Copywright &copy; Codex Academy, Brooke Blackmon
   </footer>
 
