@@ -29,13 +29,18 @@
       .article-p {
         background-color: rgb(2, 30, 40); color: aliceblue; font-weight: 300;
       }
-      .nav a {
-        -o-transition-delay: 0.3s;
-        transform-style: inherit;
-        hover: lightslategray;
-        text-align: center;
-        text-decoration: none;
-      }
+      a:link, a:visited {
+  background-color: #615e6a;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(221, 241, 6);
+}
 body {
   background-image: conic-gradient(rgb(27, 228, 215), rgb(244, 40, 237), rgb(31, 98, 184));
 }
