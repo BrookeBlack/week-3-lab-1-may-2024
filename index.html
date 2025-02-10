@@ -1,154 +1,290 @@
 <html>
+  <head>
+    <br />
+    <title>Learning CSS</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      h1 {
+        color: black;
+        margin-left: 30px;
+      }
 
-<head>
-  <br>
-  <title>Learning CSS</title>
-  <link rel="stylesheet" href="style.css">
-  <style>
-    h1 {
-      color: black;
-      margin-left: 30px;
-    }
+      p {
+        margin: 32px;
+      }
 
-    p {
-      margin: 32px;
-    }
+      button {
+        color: red;
+      }
 
-    button {
-      color: red;
-    }
+      .paragraph-1 {
+        background-color: pink;
+        border: solid;
+        border-color: black;
+        padding: 25px;
+        margin: 25px;
+      }
 
-    .paragraph-1 {
-      background-color: pink;
-      border:solid; border-color: black; padding: 25px;
-      margin: 25px;
-    }
+      .article-p {
+        background-color: rgb(2, 30, 40);
+        color: aliceblue;
+        font-weight: 300;
+        padding: 20px;
+        margin: 25px 0 0 25px;
+      }
 
-    .article-p {
-      background-color: rgb(2, 30, 40);
-      color: aliceblue;
-      font-weight: 300;
-      padding: 20px;
-margin:0px;
-    }
-
-    nav a:link,
-    nav a:visited {
-      background-color: #615e6a;
-      color: white;
-      padding: 14px 25px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-    }
-
-    nav a:hover,
-    nav a:active {
-      background-color: rgb(221, 241, 6);
-    }
-
-    body {
-      background-image: linear-gradient(rgb(34, 98, 224), rgb(9, 226, 242), rgb(14, 242, 166), rgb(170, 50, 170), rgb(242, 110, 242), rgb(242, 110, 242), rgb(34, 98, 224));
+      nav a:link,
+      nav a:visited {
+        background-color: #615e6a;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      a:hover,
+      a:active {
+        background-color: rgb(221, 241, 6);
+      }
+      body {
+        background-image: linear-gradient(
+          rgb(34, 98, 224),
+          rgb(9, 226, 242),
+          rgb(14, 242, 166),
+          rgb(170, 50, 170),
+          rgb(242, 110, 242),
+          rgb(242, 110, 242),
+          rgb(34, 98, 224)
+        );
         background-size: cover;
-      height: 100vh;
-    }
-.ul-items {
-  margin: 0px;
-  padding: 10px;
-}
+        height: 100vh;
+      }
+      .ul-items {
+        margin: 0 0 0 25px;
+        padding: 10px;
+      }
+    </style>
+  </head>
 
-  </style>
-</head>
+  <body>
+    <nav
+      style="
+        background-color: gray;
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        border-radius: 8px;
+        inline-size: none;
+        padding: 20px;
+        margin: 30px;
+      "
+    >
+      <a class="nav a" href="index.html"> HOME </a>
+      <a href="about.html"> ABOUT </a>
+      <a href="gallery.html"> GALLERY </a>
+    </nav>
+    <header>
+      <h1 style="text-decoration: underline">I love the Northern Lights!</h1>
+    </header>
+    <main>
+      <p
+        class="paragraph-1"
+        style="
+          color: black;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        "
+      >
+        <em>Aurora Borealis!</em> These beautiful lights are created in a
+        curtain like fashion in the sky! These lights are from a combination of
+        changes in the sky's <strong>magnetosphere</strong> and change the paths
+        in the Earth's charged particles! There are many factors that go into
+        play, but it creats a brilliant pattern light show for us to see.
+      </p>
 
-<body>
-  <nav
-    style="background-color: gray; color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: medium; border-radius: 8px; inline-size: none; padding: 20px; margin: 30px; display: inline-block; text-decoration: none;">
-    <a class="nav a" href="index.html"> HOME </a>
-    <a href="about.html"> ABOUT </a>
-    <a href="gallery.html"> GALLERY </a>
-  </nav>
-  <header>
-    <h1 style="text-decoration: underline">I love the Northern Lights!</h1>
-  </header>
-  <main>
-    <p class="paragraph-1" style="color: black; font-family: Georgia, 'Times New Roman', Times, serif;">
-      <em>Aurora Borealis!</em> These beautiful lights are created in a curtain like fashion in the sky!
-      These lights are from a combination of changes in the sky's <Strong>magnetosphere</Strong> and change the paths in
-      the Earth's charged particles!
-      There are many factors that go into play, but it creats a brilliant pattern light show for us to see.
-    </p>
+      <p
+        style="
+          background-color: cornflowerblue;
+          color: black;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          border: solid;
+          border-style: dotted;
+          border-color: black;
+          margin: 25px;
+          padding: 25px;
+        "
+      >
+        Galileo Galilei in 1619 named these amazing light shows, he created the
+        name using refrences to the Roman Aurora, goddess of the dawn, and the
+        Greek Boreas, god of the cold north wind. These light shows are most
+        commonly seen in the "auroral oval", which extended from mid Canada to
+        the mid region of the U.S. However, they can be seen sometimes as far
+        south as the northern parts of the souther U.S. states!
+      </p>
 
-    <p style="background-color: cornflowerblue; color: black; font-family: Georgia, 'Times New Roman', Times, serif; border: solid; border-style: dotted; border-color: black; margin: 25px; padding: 25px;">
-      Galileo Galilei in 1619 named these amazing light shows, he created the name using refrences to the Roman Aurora,
-      goddess of the dawn, and the Greek Boreas, god of the cold north wind.
-      These light shows are most commonly seen in the "auroral oval", which extended from mid Canada to the mid region
-      of the U.S. However, they can be seen sometimes as far south as the northern parts of the souther U.S. states!
-    </p>
+      <p
+        style="
+          background-color: lightblue;
+          color: black;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          border: solid;
+          border-color: black;
+          margin: 25px;
+          padding: 25px;
+        "
+      >
+        There are many places to read more about these stunning lights online!
+        Your local libary will also have a astounding selection on this topic as
+        well! I will attach some links for reading as well to further expand
+        your knowledge and understanding of the complexities of these beautiful
+        light shows!
+        <br />
+        <a
+          class="paragraph-two-link-one"
+          href="https://www.space.com/15139-northern-lights-auroras-earth-facts-sdcmp.html"
+          >Northern Lights Facts</a
+        >
+        <br />
+        <a
+          class="paragraph-two-link-two"
+          href="https://www.britannica.com/science/aurora-atmospheric-phenomenon"
+          >Aurora Phenomenon</a
+        >
+      </p>
+      <section>
+        <article>
+          <p class="article-p">Things to know about the Aurora:</p>
+          <ul class="ul-items">
+            <li>
+              they are <strong>charged</strong> particles interacting in the sky
+            </li>
+            <li>
+              they're called "Northern Lights" because they are primarily seen
+              in the northern U.S. states, but are seen in the northern most
+              portion of the northern hemisphere
+            </li>
+            <li>they appear as ribbons or curtsins in the sky</li>
+            <li>they can be seen year round in some places of the world!</li>
+          </ul>
+        </article>
+      </section>
 
-    <p style="background-color: lightblue; color: black; font-family: Georgia, 'Times New Roman', Times, serif; border: solid; border-color: black; margin: 25px; padding: 25px;">
-      There are many places to read more about these stunning lights online! Your local libary will also have a
-      astounding selection on this topic as well!
-      I will attach some links for reading as well to further expand your knowledge and understanding of the
-      complexities of these beautiful light shows!
-      <br>
-      <a class="paragraph-two-link-one" href="https://www.space.com/15139-northern-lights-auroras-earth-facts-sdcmp.html">Northern Lights Facts</a>
-      <br>
-    <a class="paragraph-two-link-two" href="https://www.britannica.com/science/aurora-atmospheric-phenomenon">Aurora Phenomenon</a>
-    
-  </p>
-    <section>
-      <article>
-        <p class="article-p">Things to know about the Aurora:</p>
-        <ul class="ul-items">
-          <li>they are <strong>charged</strong> particles interacting in the sky</li>
-          <li>they're called "Northern Lights" because they are primarily seen in the northern U.S. states, but are seen
-            in the northern most portion of the northern hemisphere</li>
-          <li>they appear as ribbons or curtsins in the sky</li>
-          <li>they can be seen year round in some places of the world!</li>
-        </ul>
-      </article>
-    </section>
+      <table
+        style="
+          border-radius: 10px;
+          margin-block-start: auto;
+          border-width: 20px;
+          border-style: double;
+          margin: 50px 0 0 25px;
+        "
+      >
+        <tr>
+          <th
+            style="
+              background-color: lightslategray;
+              color: aliceblue;
+              font-size: medium;
+              font-weight: 400;
+              font-weight: 300;
+              font-family: fantasy;
+            "
+          >
+            Item
+          </th>
+          <th
+            style="
+              background-color: lightslategray;
+              color: aliceblue;
+              font-size: medium;
+              font-weight: 400;
+              font-weight: 300;
+              font-family: fantasy;
+            "
+          >
+            Price
+          </th>
+        </tr>
+        <tr>
+          <td
+            style="
+              font-family: fantasy;
+              color: aliceblue;
+              background-color: lightslategray;
+              margin-left: 20px;
+              padding: 20px;
+            "
+          >
+            Clear dome hotel stay overnight
+          </td>
+          <td
+            style="
+              font-family: fantasy;
+              color: aliceblue;
+              background-color: lightslategrey;
+              padding: 20px;
+            "
+          >
+            $450.53
+          </td>
+        </tr>
+        <tr>
+          <td
+            style="
+              background-color: lightslategray;
+              color: aliceblue;
+              font-family: fantasy;
+              margin-left: 20px;
+              padding: 20px;
+            "
+          >
+            Train ticket to north Washington state
+          </td>
+          <td
+            style="
+              background-color: lightslategray;
+              color: aliceblue;
+              font-family: fantasy;
+              padding: 20px;
+            "
+          >
+            $250.99
+          </td>
+        </tr>
+      </table>
+      <button
+        style="
+          color: red;
+          text-align: center;
+          margin: 20px 0 0 25px;
+          padding: 15px;
+        "
+      >
+        <strong>Book Now!</strong>
+      </button>
+      <br />
+      <br />
+    </main>
+    <nav
+      style="
+        background-color: gray;
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+        border-radius: 8px;
+        inline-size: none;
+        padding: 20px;
+        margin: 30px;
+        display: inline-block;
+        text-decoration: none;
+      "
+    >
+      <a class="nav a" href="index.html"> HOME </a>
+      <a href="about.html"> ABOUT </a>
+      <a href="gallery.html"> GALLERY </a>
+    </nav>
+    <footer style="background-color: lightslategray; color: aliceblue">
+      Copywright &copy; Codex Academy, Brooke Blackmon
+    </footer>
 
-    <table style="border-radius: 10px; margin-block-start: auto; border-width: 20px; border-style: double; margin: 50px">
-      <tr>
-        <th
-          style="background-color: lightslategray; color: aliceblue; font-size: medium; font-weight: 400; font-weight: 300; font-family: fantasy;">
-          Item</th>
-        <th
-          style="background-color: lightslategray; color: aliceblue; font-size: medium; font-weight: 400; font-weight: 300; font-family: fantasy;">
-          Price</th>
-      </tr>
-      <tr>
-        <td
-          style="font-family: fantasy;color: aliceblue; background-color: lightslategray; margin-left: 20px; padding: 20px;">
-          Clear dome hotel stay overnight</td>
-        <td style="font-family: fantasy; color: aliceblue; background-color: lightslategrey; padding: 20px;">$450.53
-        </td>
-      </tr>
-      <tr>
-        <td
-          style="background-color: lightslategray; color: aliceblue; font-family: fantasy; margin-left: 20px; padding: 20px;">
-          Train ticket to north Washington state
-        </td>
-        <td style="background-color: lightslategray; color: aliceblue; font-family: fantasy; padding: 20px;">$250.99
-        </td>
-      </tr>
-    </table>
-    <br>
-    <button style="color: red;"><strong>Book Now!</strong></button>
-    <br>
-    <br>
-  </main>
-  <nav
-    style="background-color: gray; color: aliceblue; font-family: Arial, Helvetica, sans-serif; font-size: medium; border-radius: 8px; inline-size: none; padding: 20px; margin: 30px; display: inline-block; text-decoration: none;">
-    <a class="nav a" href="index.html"> HOME </a>
-    <a href="about.html"> ABOUT </a>
-    <a href="gallery.html"> GALLERY </a>
-  </nav>
-  <footer style="background-color: lightslategray; color: aliceblue;"> Copywright &copy; Codex Academy, Brooke Blackmon
-  </footer>
-
-  <script src="./script.js"></script>
-</body>
-
+    <script src="./script.js"></script>
+  </body>
 </html>
